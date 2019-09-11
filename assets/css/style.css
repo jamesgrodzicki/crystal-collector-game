@@ -1,0 +1,11 @@
+.pics{
+    float: left;
+}
+
+#targetScore{
+    float: left;
+}
+
+#diamond{
+    clear: both;
+}
