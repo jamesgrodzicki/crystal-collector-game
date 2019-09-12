@@ -18,7 +18,7 @@ function resetGame() {
 
 function update() {
     $("#score").html(score);
-    $("#targetScore").html(targetScore);
+    $("#targetScore").html("Goal: " + targetScore);
     $("#wins").html("Wins: " + wins);
     $("#losses").html("Losses: " + losses);
 }

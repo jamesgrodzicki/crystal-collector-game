@@ -13,9 +13,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>CrystalsCollector!</h1>
-    </div>
-    <div class="container">
+        <h1 class="display-1">Crystals Collector!</h1>
         <p>
             You will be given a random number at the start of the game.
         </p>
@@ -31,32 +29,27 @@
         <p>
             Each time when the game starts, the game will change the values of each crystal.
         </p>
-
-    </div>
-    <div id="targetScore" class="container">
-
-    </div>
-    <div class="container">
-        <div id="game-state"></div>
-        <div id="wins">
-
+        <div class="row">
+            <div class="col-md-4">
+                <div id="targetScore"></div>
+            </div>
+            <div class="col-md-4">
+                <div id="wins"></div>
+                <div id="losses"></div>
+            </div>
+            <div class="col-md-4">
+                <div id="game-state"></div>
+            </div>
         </div>
-        <div id="losses">
-
-        </div>
-    </div>
-    <div class="container">    
+        
         <img id="diamond" class="pics" src="assets/images/diamond.png" alt="diamond">
         <img id="lapis" class="pics" src="assets/images/Lapis_Lazuli.png" alt="lapis lazuli">
          <img id="emerald" class="pics" src="assets/images/emerald.png" alt="emerald">
         <img id="redstone" class="pics" src="assets/images/redstone.png" alt="redstone">
-    </div>  
-    <div class="container">
         <p>Your total score is:</p>
-    </div>
-    <div id="score" class="container">
+        <div id="score">
 
+        </div>
     </div>
-
 </body>
 </html>
