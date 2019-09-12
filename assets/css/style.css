@@ -4,6 +4,7 @@ body{
 }
 .pics{
     float: left;
+    border: 2px solid #444444;
 }
 
 #targetScore{
@@ -12,4 +13,9 @@ body{
 
 #diamond{
     clear: both;
+}
+
+.box{
+    background-color: #777777;
+    color: #eeeeee;
 }
